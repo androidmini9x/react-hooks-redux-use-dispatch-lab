@@ -8,6 +8,7 @@ import restaurantsReducer from "./features/restaurant/restaurantsSlice";
 
 const store = createStore(restaurantsReducer);
 
+
 ReactDOM.render(
   <Provider store={store}>
     <App store={store} />
